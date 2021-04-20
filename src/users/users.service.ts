@@ -11,10 +11,10 @@ import { User } from './models/user';
 export class UsersService {
   private users: User[] = [
     {
-      email: 'joe@example.com',
-      password: 'mypassword',
-      userId: '123',
-      age: 20,
+      email: process.env.EMAIL,
+      password: process.env.PASSWORD,
+      userId: process.env.USER_ID,
+      age: +process.env.AGE,
     },
   ];
 
