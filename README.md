@@ -25,6 +25,8 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- Need to use node 14 to work.
+- Server(http://localhost:3000/graphql) access it here.
 
 ## Installation
 
